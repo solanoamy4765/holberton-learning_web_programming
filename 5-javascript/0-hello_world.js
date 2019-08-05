@@ -7,10 +7,3 @@ console.log("Betty Holberton")
 
 let my_variable= "I love Javascript!"
 console.log (my_variable)
-
-
-var i=0;
-while (i<=0) {
-  console.log(i);
-  i++;
-}
