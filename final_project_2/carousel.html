@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+<div>
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Carousel</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="cover.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="carousel.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="album.html">Self Care</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="album2.html">Studying Techniques</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="https://www.architecturalrecord.com/ext/resources/Issues/2017/building-type-studies/1701-Schools-of-the-21st-Century-Gray-Organschi-Architecture-New-Haven-Connecticut-Common-Ground-High-School-01.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>Common Ground High School.</h1>
+              <p>An agricultural high school that unites everyone to be part of the community.</p>
+              <p><a class="btn btn-lg btn-primary" href="http://commongroundct.org/" role="button">visit website:</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="https://images.axios.com/qozklaNocIw-kOa2NXhDuQ_i2Jw=/0x0:5760x3240/1920x1080/2018/06/28/1530195505707.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Holberton School.</h1>
+              <p>A school that teaches technogoly to make a better future.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.holbertonschool.com/" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="https://i.ytimg.com/vi/AwkNFjr-C-I/maxresdefault.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1>Atom</h1>
+              <p>An application that has been used to create this website</p>
+              <p><a class="btn btn-lg btn-primary" href="https://atom.io/" role="button">Download Software</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://mail.google.com/mail/u/0?ui=2&ik=6efd1e05b7&attid=0.1&permmsgid=msg-f:1641323571534977313&th=16c727179ad15921&view=att&disp=safe" alt="Generic placeholder image" width="140" height="140">
+          <h2>About Me</h2>
+          <p>My name is Amy Solano. I am 15 years old and a rising junior at Common Ground High School. I would like to purse a career in the medical feild, while applying techonology and coding.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="data:image/png;base64,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" alt="Generic placeholder image" width="140" height="140">
+          <h2>Common Ground High School</h2>
+          <p>Common Ground High School is an agricultural school. This high school tries to unite everyone to become a community. Common Ground has a farm and a small forest to connect with their urban enviornment. Everyone should feel like a leader and be part of this amazing community. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5169/s300/instagram-feed180.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Why am I building this website?</h2>
+          <p>I am making this website to learn how to make a website and the coding behind each website. Coding is a modern way of using technology to create things such as websites, applications for both computers and phones, and so much more. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
